@@ -1,4 +1,4 @@
-# First Cutscene Mod
+# First Walking Dead Cutscene Mod
 
 ### [GITHUB DOWNLOAD](https://github.com/Telltale-Modding-Group/TTDS-FirstCutscene/releases)
 
