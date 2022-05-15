@@ -1,6 +1,6 @@
 # First Cutscene Mod
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Telltale-Modding-Group/TTDS-FirstCutscene)](https://github.com/Telltale-Modding-Group/TTDS-FirstCutscene/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/TTDS-FirstCutscene)](https://github.com/Telltale-Modding-Group/TTDS-FirstCutscene/releases)
 
 ### [GITHUB DOWNLOAD](https://github.com/Telltale-Modding-Group/TTDS-FirstCutscene/releases)
 
