@@ -8,6 +8,8 @@
 
 This mod is a fully custom cutscene developed and running right inside The Walking Dead Definitive Series game. It's all written in Lua, and has a "sequencer" system with clips and camera angles, and it also plays the games existing animations. This scene conceptually is very simple, is a proof of concept but this can be used as a base for creating your own cutscenes/gameplay mods for The Walking Dead Telltale Definitive Edition.
 
+I've also included additional functionality, and have a modfied menu script that adds a menu item to the definitive edition menu where you can press the button and play the cutscene sequence running ingame.
+
 If there are issues or suggestions with the mod please report them to the [Issues](https://github.com/Telltale-Modding-Group/TTDS-FirstCutscene/issues) tab of this repository OR you can join our discord server and ask for help there.
 
 ## DISCLAIMER
