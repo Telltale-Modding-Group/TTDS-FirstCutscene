@@ -40,7 +40,7 @@ Callback_OnPostUpdate:Add(Custom_CutsceneDev_UpdateFreeCamera)
 Custom_CutsceneDev_CutsceneToolsText = nil;
 Custom_CutsceneDev_CutsceneToolsHighlightText = nil;
 Custom_CutsceneDev_CutsceneToolsEditMode = false;
-Custom_CutsceneDev_CutsceneToolsTextTitle = "Relight Tools v0.2";
+Custom_CutsceneDev_CutsceneToolsTextTitle = "Cutscene Tools v1.0";
 Custom_CutsceneDev_SceneAgentNames = {};
 Custom_CutsceneDev_SceneAgentOriginalVisibility = {};
 Custom_CutsceneDev_AgentIndex = 1;
