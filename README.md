@@ -19,4 +19,4 @@ If there are issues or suggestions with the mod please report them to the [Issue
 
 To Edit/Modify this project, be sure to either download this repository or go to the releases tab and download the "Source code.zip" file. Then extract and open the project using the [Telltale Script Editor](https://github.com/Telltale-Modding-Group/Telltale-Script-Editor) and edit the code as you wish!
 
-NOTE: This project was built using the [Telltale Script Editor Alpha 1.1.0](https://github.com/Telltale-Modding-Group/Telltale-Script-Editor)
+*NOTE: This project was built using the [Telltale Script Editor Alpha 1.1.0](https://github.com/Telltale-Modding-Group/Telltale-Script-Editor)*
