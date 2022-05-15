@@ -1,0 +1,12 @@
+{
+  "formatVersion": "1",
+  "tool": {
+    "game": "TTDS"
+  },
+  "mod": {
+    "name": "First Cutscene Mod",
+    "version": "1.0",
+    "author": "changemymindpls1",
+    "priority": 950
+  }
+}
