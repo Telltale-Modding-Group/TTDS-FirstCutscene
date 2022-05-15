@@ -1,4 +1,4 @@
---[[
+﻿--[[
 -------------------------------------------------------------------------
 This script is included in the main menu and contains the main function for when pressing the Play Cutscene Button,
 It exectues the main cutscene level script.
@@ -38,6 +38,9 @@ local EnableCutsceneArchives = function()
     --enable these archives since the cutscene was built in S2 and uses S2 assets.
     ResourceSetEnable("ProjectSeason2");
     ResourceSetEnable("WalkingDead201"); --need this especially, contains flashback clem
+    
+    --enable these since we use some particle effects from S4
+    ResourceSetEnable("WalkingDead401");
 end
 
 --function that is exectued when the user presses the play cutscene button in the menu

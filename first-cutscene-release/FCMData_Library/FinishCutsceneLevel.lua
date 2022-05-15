@@ -1,4 +1,4 @@
---[[
+﻿--[[
 -------------------------------------------------------------------------
 This script is specific to this mod and how I set it up.
 All it is, is basically a script that when the main cutscene level reaches the end of the sequence
