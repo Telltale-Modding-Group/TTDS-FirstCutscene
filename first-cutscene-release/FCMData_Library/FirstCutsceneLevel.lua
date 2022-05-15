@@ -506,7 +506,7 @@ Scene_RelightScene = function()
 
     --ambient light foliage
     Custom_AgentSetProperty("light_Amb_foliage", "EnvLight - Intensity", 1, kScene);
-    Custom_AgentSetProperty("light_Amb_foliage", "EnvLight - Color", kScene, kScene);
+    Custom_AgentSetProperty("light_Amb_foliage", "EnvLight - Color", sunColor, kScene);
     
     --sky light/color
     Custom_AgentSetProperty("light_amb_sky", "EnvLight - Intensity", 4, kScene);
