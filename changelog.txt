@@ -1,0 +1,19 @@
+First Cutscene 1.1
+
+Author Notes:
+Hello, back with a hotfix/improvement update. 
+
+Due to some errors on my part while trying to add support for LAL (Load Any Level) I ended up accidentally making it so that it was required in order to run. Now it works as intended and doesn't actually require LAL (Load Any Level), but if it is installed it will also work and correctly place the menu items in the DE menu scene correctly. I have also increased the archive priority due to some conflicts at times if LAL was installed, sometimes the menu item wouldn't appear since both mods shared the same archive priority. 
+
+The biggest thing to note were some improvement and fixes I made to the cutscene logic. For our other projects in the future our logic will derrive mostly from this mod, and due to some issues that I was aware of while writing it at the time (but now that actually happened and was brought to my attention) a big issue was that the sequencing of the cutscene was frame rate depedent. Meaning that if you were running consistently at a lower or higher frame rate the timing of the cutscene would change accordingly which is a big no no. Higher framerates means that the scene would play much faster, slower framerates means that the scene would play much slower. So now the timings are fixed and consistent regardless of frame rate. The other important but noteworthy improvement was now fixing an issue to where when the enviorment scrolls, and when cutting to a new angle sometimes the enviorment would purposefully reset its position but sometimes you could actually see the single frame in which it jumped back. I added a small but unnoticable render delay any time the camera switches angles in the scene which hides the issue with the enviorment scrolling and resetting. The other thing is that I did another light pass on refactoring and tidying up the source code to make it a little easier and less overwhelming for people reading it. 
+
+[FIXES]
+- Fixed LAL compatabillity issue
+- Fixed archive priority issue
+- Fixed cutscene timing logic and move operations to where its no longer frame rate dependent
+- Fixed graphic black accidentally being left disabled when returning to the menu scene
+
+[IMPROVED]
+- Improved cutscene logic where switching to a new angle, sometimes you would see the enviorment jump back in the same frame.
+- Redid procedual handheld camera animation
+- Refactored and cleaned up source code

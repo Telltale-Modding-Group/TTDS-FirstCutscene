@@ -1,4 +1,4 @@
-﻿-- Decompiled using luadec 2.2 rev:  for Lua 5.2 from https://github.com/viruscamp/luadec
+-- Decompiled using luadec 2.2 rev:  for Lua 5.2 from https://github.com/viruscamp/luadec
 -- Command line: E:\Work\MODDING\Github\TTDS-FirstCutscene\first-cutscene-release\WDC_pc_Menu_data\Menu_main_temp.lua 
 
 -- params : ...
@@ -20,9 +20,9 @@ require("UI_Legend.lua")
 require("UI_Popup.lua")
 
 --droyti LAL support
-require("Menu_LoadAnyLevel.lua")
 local loadAnyLevelStatus, droytiLal = pcall(require, "Menu_loadAnyLevel.lua")
 
+--our cutscene loading script
 require("Menu_FCM_LoadScene.lua")
 
 if ResourceExists("DebugLoader.lua") then
@@ -127,6 +127,9 @@ Menu_Main = function()
     Menu_Add(ListButtonLite, "settings", "label_settings", "Menu_Options()")
     Menu_Add(ListButtonLite, "credits", "label_credits", "Menu_ShowCredits( 0 )")
     
+    
+
+    --------------------------------------
     --LAL support
     if(loadAnyLevelStatus) then
         Menu_Add(ListButtonLite, "loadanylevel", "Load Any Level", "Menu_LoadAnyLevel()")
@@ -134,6 +137,10 @@ Menu_Main = function()
     
     --cutscene mod button
     Menu_Add(ListButtonLite, "firstcutscenelevel", "Play Custom Cutscene", "PlayFirstCutsceneLevel()")
+  --------------------------------------
+
+
+
     
     if IsPlatformPC() or IsPlatformMac() then
       Menu_Add(ListButtonLite, "exit", "label_exitGame", "UI_Confirm( \"popup_quit_header\", \"popup_quit_message\", \"EngineQuit()\" )")
@@ -218,4 +225,3 @@ if ResourceExists("DebugLoader.lua") then
   Callback_OnLoadDebugMenu:Add(OpenDebugMenu)
 end
 SceneOpen(kScene, "Menu_Main_Start")
-

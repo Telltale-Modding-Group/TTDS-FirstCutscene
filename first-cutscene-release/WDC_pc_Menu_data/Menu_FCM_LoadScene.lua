@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 -------------------------------------------------------------------------
 This script is included in the main menu and contains the main function for when pressing the Play Cutscene Button,
 It exectues the main cutscene level script.
@@ -48,8 +48,8 @@ PlayFirstCutsceneLevel = function()
     SetSeason2ProjectSettings();
     EnableCutsceneArchives();
 
-    --note to self: we need to do a scene fade both when opening the scene and exiting the scene.
+    OverlayShow("ui_loadingScreen.overlay", true);
 
     --execute the cutscene level script
-    dofile("FirstCutsceneLevel.lua");
+    dofile("FCM_Level_FirstCutscene.lua");
 end
