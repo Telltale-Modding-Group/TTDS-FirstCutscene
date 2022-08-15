@@ -2,6 +2,7 @@
 
 ### [GITHUB DOWNLOAD](https://github.com/Telltale-Modding-Group/TTDS-FirstCutscene/releases)
 ### [NEXUS MODS DOWNLOAD](https://www.nexusmods.com/thewalkingdeadthetelltaledefinitiveseries/mods/9)
+### [Video Preview](https://youtu.be/973xyVUlZBo?t=20)
 
 ![thumb 1](screenshots/thumb1.jpg)
 
